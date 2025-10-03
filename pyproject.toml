@@ -1,0 +1,15 @@
+[project]
+name = "html2md"
+version = "0.1.0"
+description = "Convert HTML code to Markdown using LLM"
+readme = "README.md"
+authors = [{ name = "en-ver" }]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+html2md = "html2md:main"
+
+[build-system]
+requires = ["uv_build>=0.8.22,<0.9.0"]
+build-backend = "uv_build"
